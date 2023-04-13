@@ -1,0 +1,65 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerWrapper {
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerWrapper button {
+    height: 42px;
+    width: 80px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.logoWrapper {
+    width: 260px;
+    height: 85px;
+}
+
+.logoWrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.centerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.topTitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.bottomTitle {
+    font-size: 24px;
+    color: white;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .topTitle {
+        font-size: 12px;
+    }
+
+    .bottomTitle {
+        font-size: 12px;
+
+    }
+}
