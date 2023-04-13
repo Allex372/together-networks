@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Allex372/together-networks.git/static/css/main.7ce453ee.css",
-    "main.js": "/Allex372/together-networks.git/static/js/main.6e4a876b.js",
+    "main.js": "/Allex372/together-networks.git/static/js/main.d068bc0e.js",
     "static/js/787.9bff4357.chunk.js": "/Allex372/together-networks.git/static/js/787.9bff4357.chunk.js",
     "static/media/bg.png": "/Allex372/together-networks.git/static/media/bg.ea7333d8a20a22db40ce.png",
     "static/media/logo.png": "/Allex372/together-networks.git/static/media/logo.b91ed0b0929b0ac68af7.png",
     "index.html": "/Allex372/together-networks.git/index.html",
     "main.7ce453ee.css.map": "/Allex372/together-networks.git/static/css/main.7ce453ee.css.map",
-    "main.6e4a876b.js.map": "/Allex372/together-networks.git/static/js/main.6e4a876b.js.map",
+    "main.d068bc0e.js.map": "/Allex372/together-networks.git/static/js/main.d068bc0e.js.map",
     "787.9bff4357.chunk.js.map": "/Allex372/together-networks.git/static/js/787.9bff4357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ce453ee.css",
-    "static/js/main.6e4a876b.js"
+    "static/js/main.d068bc0e.js"
   ]
 }
