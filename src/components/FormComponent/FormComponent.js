@@ -34,7 +34,7 @@ export function FormComponent() {
         e.preventDefault();
         if (!isLastStep) return next()
 
-        postData("http://www.mocky.io/v2/5dfcef48310000ee0ed2c281", { answer: 42 }).then((data) => {
+        postData("https://www.mocky.io/v2/5dfcef48310000ee0ed2c281", { answer: 42 }).then((data) => {
             data.errors.map((el) => toast.error(el.message, {
                 position: "top-right",
                 autoClose: 5000,
@@ -52,7 +52,7 @@ export function FormComponent() {
         const response = await fetch(url, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
+                "Content-Type": "text/plain",
             },
             body: JSON.stringify(data),
         });
