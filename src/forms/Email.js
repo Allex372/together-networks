@@ -5,6 +5,7 @@ export function Email({ email, updateFields }) {
     let error = false;
     const emailInput = document.getElementById('email');
     function errorHandler() {
+        // eslint-disable-next-line no-useless-escape
         if (emailInput?.value && !emailInput.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
             error = true;
         } else {
@@ -16,6 +17,7 @@ export function Email({ email, updateFields }) {
 
     useEffect(() => {
         updateFields({ emailError: error });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [error]);
 
     return (
